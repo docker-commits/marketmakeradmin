@@ -1,0 +1,41 @@
+.sapn_style>p>span{
+    border-radius: 10px;
+    background: #d3d1d1;
+    align-items: center;
+    display: -webkit-inline-box;
+
+    color: black;
+    /* width: 150px; */
+    padding: 7px;
+    justify-content: center;
+}
+.span_style>p{
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0.1rem;
+}
+
+table {
+    border: 10px #166e60 double;
+    width: 100%;
+    margin: 10px;
+    font-weight: 645;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: Lightgreen;
+}
+.ui.header:first-child{
+    justify-content: center;
+    display: flex;
+}
+.ui.image img, .ui.image svg{
+    max-width: 100% !important;
+}
+/* .ui.modal>.content{
+    background-image: linear-gradient(rgba(255,255,255,.91), rgba(255,255,255,.8)),  url("./images.jpg") !important;
+} */

@@ -1,0 +1,46 @@
+.BoxStyle{
+    top: 20px;
+    position: relative;
+}
+.glass-bg{
+    background-color: rgb(246 244 244 / 17%);
+  border-radius: 5px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  backdrop-filter: blur(10px);
+  /* max-width: 50%; */
+  padding: 1rem 2rem;
+  overflow-y: scroll;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .modal {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.356);  
+    }
+    
+  }
+  .bg-align{
+    align-items: center;
+    top: 10px;
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    /* height: 100%;
+    width: 100%; */
+  }
+  input[type="date"]{
+    background: linear-gradient(45deg, #6c4bd9, #1f1829) !important;
+    font: small-caption;
+    padding: 10px !important;
+    border-radius: 15px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: white !important;
+  }
+  .strong_style{
+    padding: 10px;
+  }
+  
